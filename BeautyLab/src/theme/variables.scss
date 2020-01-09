@@ -74,4 +74,22 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  // Colors Beautylab
+  --ion-color-primary-bl: #f603d8;
+  --ion-color-primary-bl-rgb: 246,3,216;
+  --ion-color-primary-bl-contrast: #ffffff;
+  --ion-color-primary-bl-contrast-rgb: 255,255,255;
+  --ion-color-primary-bl-shade: #d803be;
+  --ion-color-primary-bl-tint: #f71cdc;
+}
+  
+// Colors Beautylab
+.ion-color-primary-bl {
+  --ion-color-base: var(--ion-color-primary-bl);
+  --ion-color-base-rgb: var(--ion-color-primary-bl-rgb);
+  --ion-color-contrast: var(--ion-color-primary-bl-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-primary-bl-contrast-rgb);
+  --ion-color-shade: var(--ion-color-primary-bl-shade);
+  --ion-color-tint: var(--ion-color-primary-bl-tint);
 }

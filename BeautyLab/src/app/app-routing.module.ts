@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'view-video',
+    loadChildren: () => import('./pages/view-video/view-video.module').then( m => m.ViewVideoPageModule)
   }
 ];
 @NgModule({

@@ -3,6 +3,16 @@
 
     </ion-toolbar>
 </ion-header>
-<ion-content padding class="background-bl">
-    <h1>Hello</h1>
+<ion-content class="padding background-bl">
+    <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide>
+            <h1>Slide 1</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>Slide 2</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>Slide 3</h1>
+        </ion-slide>
+    </ion-slides>
 </ion-content>

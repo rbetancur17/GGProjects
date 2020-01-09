@@ -1,5 +1,7 @@
 {
   "name": "Beautylab",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
