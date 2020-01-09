@@ -1,0 +1,38 @@
+ion-content{
+    h2{
+        color:white;
+    }
+    ion-grid{
+        padding-top: 4em;
+    } 
+}
+
+.logo-login{
+    max-width: 80%;
+    border: 0;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+.icons-login{
+    width:35px;
+    height:35px;
+    color: white;
+}
+.input-login{
+    color:white;
+    --background:#0b93f6;
+    width: 90%;
+    height: 50px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    --placeholder-color: white; 
+    --placeholder-opacity: 80%;
+    text-align: center;
+}
+.button-login{
+    
+}
+    
+
